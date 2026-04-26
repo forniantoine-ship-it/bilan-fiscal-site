@@ -40,7 +40,32 @@ export default function App() {
 
       <hr style={{margin:"50px 0"}} />
 
-      <h2>Demande de rappel</h2>
+      <<h2>Demande de rappel</h2>
+
+<form action="https://formspree.io/f/xaqazyvg" method="POST">
+
+  <input name="nom" placeholder="Nom" style={champ} />
+
+  <input name="telephone" placeholder="Téléphone" style={champ} />
+
+  <input name="email" type="email" placeholder="Email" style={champ} />
+
+  <button
+    type="submit"
+    style={{
+      background:"green",
+      color:"white",
+      padding:"15px 25px",
+      borderRadius:"12px",
+      border:"none",
+      fontSize:"18px",
+      marginTop:"20px"
+    }}
+  >
+    Recevoir mon bilan gratuit
+  </button>
+
+</form>
 
       <input placeholder="Nom" style={champ} />
       <input placeholder="Téléphone" style={champ} />
